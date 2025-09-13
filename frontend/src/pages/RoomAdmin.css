@@ -1,0 +1,50 @@
+.room-admin-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-room-button {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .room-admin-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .room-admin-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .room-admin-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-room-button,
+  .delete-room-button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-room-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+  }
+  
+  .edit-room-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+  }
+  
